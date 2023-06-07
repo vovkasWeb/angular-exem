@@ -1,0 +1,48 @@
+nav ul {
+  display: flex;
+  list-style: none;
+  /* убираем маркеры списка */
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+  /* отступы между элементами */
+}
+
+nav a {
+  text-decoration: none;
+  color: #cacaca;
+}
+
+nav {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* тень */
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #242323; */
+  background-color: none;
+  font-weight: 900;
+  padding: 5px;
+  border-bottom: 2px solid #746a6a;
+  padding-bottom: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  /* width: 35%; */
+  margin: 0 auto;
+}
+
+.tabs__item {
+  padding: 20px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #433c3c;
+  background-color: none;
+  transition: background-color 0.3s ease;
+}

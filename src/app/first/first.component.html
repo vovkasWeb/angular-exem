@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="button-wrapper">
+    <p class="text" (click)="showCopyright()">
+      {{ nasa[currentIndex].copyright }}
+    </p>
+    <p class="text">{{ nasa[currentIndex].date }}</p>
+    <img [src]="nasa[currentIndex].hdurl" alt="My Image" id="photo" />
+    <button class="button button-left" (click)="lastImage()">предыдущие</button>
+    <button class="button button-right" (click)="nextImage()">следущие</button>
+  </div>
+</div>
+<p *ngFor="let url of urls"><img [src]="url" /></p>

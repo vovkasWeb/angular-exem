@@ -1,0 +1,59 @@
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 40px;
+  background-color: #e6a5a5;
+  color: #333;
+  border: 3px double #0b0b0b;
+  cursor: pointer;
+}
+
+.block {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+}
+
+.text-warn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.link-text {
+  cursor: pointer;
+  color: royalblue;
+}
+
+.api-field {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  width: 600px;
+  height: 40px;
+  padding: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0b0b0b;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+:host {
+  display: block;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}

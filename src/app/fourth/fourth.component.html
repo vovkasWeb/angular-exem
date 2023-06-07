@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="button-wrapper">
+    <p class="text">{{ container.photos[currentIndex].earth_date }}</p>
+    <img
+      [src]="container.photos[currentIndex].img_src"
+      alt="My Image"
+      id="photo"
+    />
+    <button class="button button-left" (click)="lastImage()">предыдущие</button>
+    <button class="button button-right" (click)="nextImage()">следущие</button>
+  </div>
+</div>
